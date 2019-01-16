@@ -39,14 +39,14 @@
 DHT dht(DHTPIN, DHTTYPE); 
 // End your sensor library
 
-// LoRaWAN NwkSKey, network session key
+// LoRaWAN NwkSKey, network session key replce with your KEY
 static const PROGMEM u1_t NWKSKEY[16] = { 0xEC, 0xE4, 0x75, 0x49, 0xAF, 0xA7, 0xDE, 0x52, 0x17, 0xA0, 0xB0, 0xDE, 0xDC, 0xDB, 0x60, 0x62 };
 
-// LoRaWAN AppSKey, application session key
+// LoRaWAN AppSKey, application session key replce with your KEY
 static const u1_t PROGMEM APPSKEY[16] = { 0x39, 0x74, 0x6C, 0x80, 0x31, 0x29, 0x21, 0x6C, 0x0F, 0x57, 0x9F, 0x9D, 0x9E, 0x96, 0x59, 0xAB };
 
-// LoRaWAN end-device address (DevAddr)
-static const u4_t DEVADDR = 0x260116B6 ;
+// LoRaWAN end-device address (DevAddr) replce with your DEVICE ADRESS
+static const u4_t DEVADDR = 0x--------- ;
 
 // These callbacks are only used in over-the-air activation, so they are
 // left empty here (we cannot leave them out completely unless
